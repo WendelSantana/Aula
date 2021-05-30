@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>repl.it</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <h1>Sistema de Cadastro</h1>
+      <form>
+        <div class="input-box">
+          <input type="text" name="cliente" placeholder="Nome do cliente" required>
+          <button id="cad-client">add</button>
+        </div>
+        <div class="input-box">
+          <input type="text" name="produto" placeholder="Nome do produto" required>
+          <select name="client-name" id="cliente-name" required>
+            <option>Selecione o cliente</option>
+          </select>
+          <button id="cad-prod">add</button>
+        </div>
+      </form>
+      <ul class="list">
+      </ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
